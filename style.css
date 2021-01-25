@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    box-shadow: 0px 72px 10px 7px black;
+    width: 800px;
+    height: 600px;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.background{
+    background-image: url(https://cdn.mos.cms.futurecdn.net/ZR2x4GzkU3QVuiMuagwzM-1200-80.jpg);
+
+    background-repeat: no-repeat;
+    background-size: 100% 650px;
+}
+
+.first-header{}
+.first-header ul{
+text-align: center;
+background: #000;
+}
+.first-header ul li{
+    display: inline-block;
+}
+.first-header ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 10px;
+    display: inline-block;
+    font-size: 25px;
+    width: 150px;
+  
+   
+}
+.first-header ul li a:hover{
+    background: rgb(196, 88, 88);
+    padding: 10px;
+    
+}
+.second-header{
+    background: #ddd;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 5px;
+}
+.second-header:hover{
+    background: rgb(235, 179, 75);
+}
+
+ /*container*/
+ .fst-container{
+     display: inline-block;
+ }
+.fst-container ul {
+	list-style: none;
+	margin-left: 18px;
+	background: rgba(19, 10, 10, 0.4);
+	display: inline-block;
+    padding: 35px 19px;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    top: 129px;
+    right: -173px;
+}
+
+.fst-container ul li{
+    font-size: 20px;
+    color: #fff;
+   
+    
+}
+.fst-container ul li::before {
+	content: "\f5d0";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 20px;
+	color: #fff;
+}
+.fst-container ul li:hover{
+    background: rgb(86, 218, 25);
+
+}
+
+.sec-container ul {
+	list-style: none;
+	margin-left: 18px;
+	background: rgba(19, 10, 10, 0.4);
+	display: inline-block;
+    padding: 35px 19px;
+    margin-bottom: 20px;
+    position: relative;
+    top: -55px;
+    right: -353px;
+}
+.sec-container ul li{
+    font-size: 20px;
+    color: #fff;
+  
+    
+}
+.sec-container ul li::before {
+	content: "\f5d2";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.sec-container ul li::after {
+	content: "\f5d2";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 20px;
+	color: #fff;
+}
+.sec-container ul li:hover{
+    background: rgb(86, 218, 25);
+    
+}
+
+.lst-container ul {
+	list-style: none;
+	margin-left: 18px;
+	background:rgba(19, 10, 10, 0.4);
+	display: inline-block;
+    padding: 35px 19px;
+    position: relative;
+    top: -239px;
+    left: 570px;
+}
+.lst-container ul li{
+    font-size: 20px;
+    color: #fff;
+   
+    
+}
+.lst-container ul li::before {
+	content: "\f2a2";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 20px;
+	color: #fff;
+}
+.lst-container ul li:hover{
+    background: rgb(86, 218, 25);
+    
+}
+.single-con{
+    text-align: ;
+}
+
+.footer{
+    background: rgb(17, 5, 5);
+    padding: 15px 60px;
+    color: white;
+    text-align:center;
+    margin-top:-0px;
+}
+
+.f-awesome{
+
+    text-align: center;
+}
+
+.footer a {
+	color: white;
+	margin-top: 10px;
+	padding: 1px;
+	display: inline-block;
+	background: rgb(240, 162, 19,.5);
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	line-height: 42px;
+	margin-left: 5px;
+}
+.footer a:hover{
+    background: rgb(226, 112, 150);
+}
